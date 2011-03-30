@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		639C922D13436C2F00C833A6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639C922C13436C2F00C833A6 /* CoreFoundation.framework */; };
+		639C923313436C2F00C833A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 639C923113436C2F00C833A6 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		639C922913436C2F00C833A6 /* LunchTime.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchTime.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		639C922C13436C2F00C833A6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		639C923013436C2F00C833A6 /* LunchTime-Info.plist */ = {isa = PBXFileReference; path = "LunchTime-Info.plist"; sourceTree = "<group>"; };
+		639C923213436C2F00C833A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		639C923413436C2F00C833A6 /* LunchTime-Prefix.pch */ = {isa = PBXFileReference; path = "LunchTime-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639C922613436C2F00C833A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639C922D13436C2F00C833A6 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		639C921E13436C2F00C833A6 = {
+			isa = PBXGroup;
+			children = (
+				639C922E13436C2F00C833A6 /* LunchTime */,
+				639C922B13436C2F00C833A6 /* Frameworks */,
+				639C922A13436C2F00C833A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639C922A13436C2F00C833A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639C922913436C2F00C833A6 /* LunchTime.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639C922B13436C2F00C833A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				639C922C13436C2F00C833A6 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		639C922E13436C2F00C833A6 /* LunchTime */ = {
+			isa = PBXGroup;
+			children = (
+				639C922F13436C2F00C833A6 /* Supporting Files */,
+			);
+			path = LunchTime;
+			sourceTree = "<group>";
+		};
+		639C922F13436C2F00C833A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				639C923013436C2F00C833A6 /* LunchTime-Info.plist */,
+				639C923113436C2F00C833A6 /* InfoPlist.strings */,
+				639C923413436C2F00C833A6 /* LunchTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639C922813436C2F00C833A6 /* LunchTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639C923713436C2F00C833A6 /* Build configuration list for PBXNativeTarget "LunchTime" */;
+			buildPhases = (
+				639C922513436C2F00C833A6 /* Sources */,
+				639C922613436C2F00C833A6 /* Frameworks */,
+				639C922713436C2F00C833A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunchTime;
+			productName = LunchTime;
+			productReference = 639C922913436C2F00C833A6 /* LunchTime.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639C922013436C2F00C833A6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 639C922313436C2F00C833A6 /* Build configuration list for PBXProject "LunchTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 639C921E13436C2F00C833A6;
+			productRefGroup = 639C922A13436C2F00C833A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639C922813436C2F00C833A6 /* LunchTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639C922713436C2F00C833A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639C923313436C2F00C833A6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639C922513436C2F00C833A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		639C923113436C2F00C833A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639C923213436C2F00C833A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639C923513436C2F00C833A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		639C923613436C2F00C833A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		639C923813436C2F00C833A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchTime/LunchTime-Prefix.pch";
+				INFOPLIST_FILE = "LunchTime/LunchTime-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		639C923913436C2F00C833A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchTime/LunchTime-Prefix.pch";
+				INFOPLIST_FILE = "LunchTime/LunchTime-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639C922313436C2F00C833A6 /* Build configuration list for PBXProject "LunchTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639C923513436C2F00C833A6 /* Debug */,
+				639C923613436C2F00C833A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639C923713436C2F00C833A6 /* Build configuration list for PBXNativeTarget "LunchTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639C923813436C2F00C833A6 /* Debug */,
+				639C923913436C2F00C833A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639C922013436C2F00C833A6 /* Project object */;
+}
